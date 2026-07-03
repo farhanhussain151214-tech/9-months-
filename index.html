@@ -6,6 +6,35 @@
 <title>For My Love ❤️</title>
 
 <style>
+/* Import elegant font */
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+
+h1{
+    font-family: 'Great Vibes', cursive;
+    font-size: 65px;
+    color: #fff;
+    text-shadow:
+        0 0 10px rgba(255,255,255,0.8),
+        0 0 20px hotpink,
+        0 0 40px deeppink;
+    margin-bottom: 20px;
+    letter-spacing: 2px;
+    animation: glow 3s ease-in-out infinite alternate;
+}
+
+@keyframes glow{
+    from{
+        text-shadow:
+            0 0 8px white,
+            0 0 18px hotpink;
+    }
+    to{
+        text-shadow:
+            0 0 15px white,
+            0 0 30px hotpink,
+            0 0 50px deeppink;
+    }
+}
 *{
     margin:0;
     padding:0;
@@ -35,8 +64,30 @@ body{
 }
 
 h1{
-    font-size:40px;
+    font-family:'Great Vibes', cursive;
+    font-size:65px;
+    color:white;
+    text-shadow:
+        0 0 10px rgba(255,255,255,.8),
+        0 0 20px hotpink,
+        0 0 40px deeppink;
     margin-bottom:20px;
+    letter-spacing:2px;
+    animation:glow 3s ease-in-out infinite alternate;
+}
+
+@keyframes glow{
+    from{
+        text-shadow:
+            0 0 8px white,
+            0 0 18px hotpink;
+    }
+    to{
+        text-shadow:
+            0 0 15px white,
+            0 0 30px hotpink,
+            0 0 50px deeppink;
+    }
 }
 
 img{
